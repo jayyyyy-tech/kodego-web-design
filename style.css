@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  max-width: 1980px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  padding: 1rem;
+  background-color: #0b3954;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navigation a {
+  text-decoration: none;
+  color: #e9f5db;
+  margin: 0 0.5rem;
+}
+.logo {
+  color: #e9f5db;
+  font-weight: bold;
+  margin-right: 60px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #e9f5db;
+}
+.navbar .sign {
+  padding: 5px;
+  background-color: #9d5691;
+  border-radius: 5px;
+}
+section {
+  padding: 1rem;
+}
+section#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #dcebca;
+  color: #606f49;
+  position: relative;
+  z-index: 1;
+}
+section#home h1 {
+  color: #9d5691;
+  margin-left: 150px;
+}
+section#home p {
+  max-width: 600px;
+  color: #368f8b;
+  margin-left: 150px;
+}
+section#home .button {
+  margin-left: 150px;
+  border-radius: 5px;
+  background-color: #9d5691;
+  color: #f0f0f0;
+  padding: 10px;
+}
+section#home .img1 {
+  height: auto;
+  width: 650px;
+  top: 50px;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
+}
+section#home .dove {
+  height: auto;
+  width: 350px;
+  top: 180px;
+  right: 200px;
+  position: absolute;
+}
+section#about,
+section#service,
+section#contact {
+  height: 95vh;
+  text-align: center;
+}
+section#about h3,
+section#service h3 {
+  margin-top: 50px;
+}
+section#contact {
+  background-color: #849669;
+}
